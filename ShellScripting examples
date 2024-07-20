@@ -15,9 +15,7 @@ set -o # pipeline
 
 df -h
 
-
 free -g
-
 
 nproc
 
