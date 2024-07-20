@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#################
+# Author: Ashish
+# Date: 20/07/2024
+#
+# This script outputs the node health
+#
+# Version: v1
+#################
+
+set -x # debug mode
+set -e # exit when there is an error
+set -o # pipeline
+
+df -h
+
+
+free -g
+
+
+nproc
